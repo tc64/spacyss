@@ -9,7 +9,7 @@ sentences in text are separated by one or more newline characters.
 
 
 ```python
-from seg.newline.segmenter import NewLineSegmenter
+from spacyss.seg.newline.segmenter import NewLineSegmenter
 import spacy
 
 nlseg = NewLineSegmenter()
