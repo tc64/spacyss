@@ -1,5 +1,9 @@
-import re
+"""
+This segmenter's template was based on reading the following github issue:
+https://github.com/explosion/spaCy/pull/1400
+"""
 
+import re
 
 class NewLineSegmenter(object):
     def __init__(self):
