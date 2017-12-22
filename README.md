@@ -1,6 +1,8 @@
 # Description
 Custom sentence segmentation for spacy.
 
+*Test on spacy 2.0.5*
+
 # Segmenters Implemented
 ## Newline Segmenter
 sentences in text are separated by one or more newline characters.
