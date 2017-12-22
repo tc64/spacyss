@@ -22,7 +22,7 @@ class NewLineSegmenter(object):
             return doc
 
         for t in doc[1:]:
-            if self.is_nl_token(doc[t.i-1]) and not self.is_nl_token(t):
+            if self.is_nl_token(doc[t.i - 1]) and not self.is_nl_token(t):
                 t.is_sent_start = True
             else:
                 t.is_sent_start = False
@@ -47,6 +47,7 @@ if __name__ == "__main__":
     """
 
     import spacy
+
     nlp = spacy.load('en')
     nlp.add_pipe(NewLineSegmenter().set_sent_starts, name='sentence_segmenter', before='parser')
     doc = nlp(samples)
