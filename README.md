@@ -1,7 +1,11 @@
 # Description
 Custom sentence segmentation for spacy.
 
-*Test on spacy 2.0.5*
+```bash
+pip install spacyss
+```
+
+*Tested on spacy 2.0.5*
 
 # Segmenters Implemented
 ## Newline Segmenter
