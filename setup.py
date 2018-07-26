@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='spacyss',
-    version='1.0.0',
+    version='1.0.1',
     packages=['seg', 'seg.newline', 'seg.singsent'],
     url='https://github.com/tc64/spacyss',
     license='',
